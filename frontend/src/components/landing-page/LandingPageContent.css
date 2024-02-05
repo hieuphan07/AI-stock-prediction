@@ -1,0 +1,79 @@
+.landing-page {
+	background-color: #8ec5fc;
+	background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.landing-page__container {
+	padding: 50px 100px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.header .logo img {
+	height: 80px;
+	width: 80px;
+}
+
+.nav-bar {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.nav-bar button {
+	background-color: transparent;
+	border: 2px solid white;
+	padding: 5px 25px;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.hero {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.text .title {
+	font-size: 5rem;
+	color: white;
+	margin: 10px auto;
+}
+
+.text .description {
+	font-size: 1.2rem;
+}
+
+.text .action {
+	width: fit-content;
+	padding: 10px 15px;
+	border: 1px solid white;
+	border-radius: 50px;
+}
+
+.img {
+	justify-self: end;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img img {
+	height: 700px;
+}
