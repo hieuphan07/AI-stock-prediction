@@ -8,10 +8,7 @@ const LandingPageContent = () => {
 			<div className='landing-page__container'>
 				<div className='header'>
 					<div className='logo'>
-						<img
-							alt='logo'
-							src='https://img.freepik.com/free-vector/financial-logo-business-template-branding-design-vector_53876-136259.jpg?w=826&t=st=1707152692~exp=1707153292~hmac=e3cbea523230d3af9a1f894bf56ceeffb5f8af040d3470bc3b4e67dd1b34dc35'
-						/>
+						<img alt='logo' src={require('../../asset/images/logo.png')} />
 					</div>
 					<div className='nav-bar'>
 						<span>HOME</span>
