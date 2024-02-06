@@ -1,6 +1,11 @@
 .landing-page {
-	background-color: #8ec5fc;
-	background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+	background-color: #3b2b2b;
+	background-image: linear-gradient(
+		160deg,
+		#3b2b2b 0%,
+		#1d1429 50%,
+		#ff3c3f 100%
+	);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -27,6 +32,7 @@
 	display: flex;
 	align-items: center;
 	gap: 50px;
+	color: white;
 }
 
 .nav-bar button {
@@ -36,6 +42,7 @@
 	border-radius: 50px;
 	font-size: 18px;
 	font-weight: 500;
+	color: white;
 }
 
 .hero {
@@ -52,12 +59,13 @@
 
 .text .title {
 	font-size: 5rem;
-	color: white;
+	color: #ff3c3f;
 	margin: 10px auto;
 }
 
 .text .description {
 	font-size: 1.2rem;
+	color: white;
 }
 
 .text .action {

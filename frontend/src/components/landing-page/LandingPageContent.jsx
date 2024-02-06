@@ -34,7 +34,7 @@ const LandingPageContent = () => {
 					</div>
 					<div className='img'>
 						<img
-							src='https://img.freepik.com/free-vector/illustrated-stock-exchange-data-concept_52683-43208.jpg?w=826&t=st=1707150846~exp=1707151446~hmac=00000bd3cc2c6b7ad3bbbb9bc61979889c4222eeb0b19011e83b5e5de114b6c0'
+							src={require('../../asset/images/red-bull.png')}
 							alt='landing-page'
 						/>
 					</div>
